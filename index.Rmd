@@ -2,7 +2,7 @@
 title: "index.Rmd"
 author: "Dave"
 date: "10/23/2018"
-output: html_document2
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -17,7 +17,6 @@ When you click the **Knit** button a document will be generated that includes bo
 
 ```{r cars}
 summary(cars)
-toyota
 ```
 
 ## Including Plots
@@ -26,12 +25,6 @@ You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 plot(pressure)
-View(pressure)
-
-plot(temperature)
-# Helena tried to make a plot here
-# new change
 ```
-
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
