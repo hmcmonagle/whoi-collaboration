@@ -23,12 +23,14 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r temperature, echo=FALSE}
-plot(temperature)
-View(cars)
-# Helena tried to make a plot here
-```
+```{r pressure, echo=FALSE}
+plot(pressure)
+View(pressure)
 
+plot(temperature)
+# Helena tried to make a plot here
+# new change
+```
 
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
